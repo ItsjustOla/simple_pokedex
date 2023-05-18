@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Pokédex',
-        home: MyHomePage(),
+        home: const MyHomePage(),
         theme: ThemeData(useMaterial3: true),
         debugShowCheckedModeBanner: false);
   }
